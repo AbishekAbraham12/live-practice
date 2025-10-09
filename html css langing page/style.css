@@ -1,0 +1,78 @@
+
+/* root colors */
+:root {
+  --orange-color: #fa7436 ;
+  --white-color: #fefcfb ;
+  --gray-color: #666666 ;
+  --lightgray-color: #999999 ;
+  --lightwhite-color: #ffe7db ;
+  --darkblue-color: #4e4e73 ;
+}
+
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  font-family: "Poppins","Volkhov";
+}
+
+/* header section styling */
+/*common styling */
+  .wrapper{
+    max-width: 1200px;
+    margin: 0 auto ;
+    background-color:var(--white-color);
+}
+  /*button styling */
+   .btn{
+      text-decoration: none;
+      padding: 8px 18px;
+      border-radius: 8px;
+      color:  #fa7436;
+      display:inline-block;
+      font-weight: 400;
+      font-size: 16px;
+      position: relative;
+   }
+   .btn.dark{
+      text-decoration: none;
+      padding: 8px 18px;
+      border-radius: 8px;
+      color:  #fefcfb;
+      display:inline-block;
+      font-weight: 400;
+      font-size: 16px;
+      position: relative;
+   }
+  .btn{
+    background: var(--white-color);
+   }
+  .btn.dark{
+    background: var(--orange-color);
+   }
+ nav{
+    display: flex ;
+    justify-content:space-between ;
+    align-items: center;
+    font-weight: bold;
+    top: 0 px;
+    width: 1000px;
+    padding: 36px 4px;
+}
+nav ul{
+    list-style: none;
+    display: flex;
+    gap: 32px;
+    align-items: center;
+    margin: 0;
+}
+nav ul li a{
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 400;
+    color: var(--black);
+    
+}
