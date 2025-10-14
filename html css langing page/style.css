@@ -209,7 +209,7 @@ nav ul li a {
 /* searching section finished */
 /* header section finished */
 
-/* testimonial section */
+/* testimonial section start */
 
 .testimonial-section {
   background-color: #F7F8FC;
@@ -266,12 +266,71 @@ nav ul li a {
   justify-content: space-evenly;
   gap: 8px;
   background: var(--white-color);
-  box-shadow: 14px 4px 15px rgba(0.8, 0, 0, 0.1);
+  box-shadow: 14px 4px 15px rgba(0.1, 0.1, 0.1, 0.1);
   border-radius: 6px;
   border: 18px;
   bottom: 600px;
   width: 300px;
   height: 230px;
   padding: 32px;
+}
+
+
+/* testimonial section finished */
+
+/* deals & discounts section */
+.deals-section {
+  justify-content: center;
+  align-items: center;
+  
+}
+.deals-section top {
+  position: absolute;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+
+
+}
+.deals-section .top h2 {
+  text-align: center;
+  color: var(--orange-color);
+  font-family: "volkhov";
+  font-size: 38px;
+  padding: 38px 1px 8px 16px;
+}
+.deals-section .top p {
+  text-align: center;
+  color: var(--lightgray-color);
+  font-size: 16px;
+}
+.deals-section img {
+ padding: 24px 20px 38px 550px;
+
+}
+.deals-section .bottom{
+  align-items: center;
+  padding: 38px 18px 24px 80px;
+
+}
+.deals-section .bottom img {
+  width: 249px;
+  height: 350px;
+  padding: 8px 8px 8px 6px;
+ 
+}
+.deals-section .bottom .btn.dark{
+  text-decoration: none;
+  padding: 8px 4px 24px 12px;
+  border-radius: 6px;
+  color: var(--white-color);
+  display: inline-block;
+  font-weight: 400;
+  font-size: 16px;
+  background: var(--orange-color);
+  right: -320px;
+  top: -200px;
+  width: 100px;
+  height: 40px;
 
 }
